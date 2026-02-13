@@ -21,6 +21,8 @@ const Login = ({ url }) => {
   const onLogin = async (event) => {
     event.preventDefault();
     const response = await axios.post(url + "/api/user/login", data);
+    console.log(response.data);
+    
     if (response.data.success) {
       if (response.data.role === "admin") {
         setToken(response.data.token);
