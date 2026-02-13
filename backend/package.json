@@ -5,9 +5,11 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js"
-  },
-  "author": "",
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
+,
+  "author": "Khushwant Mali",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
