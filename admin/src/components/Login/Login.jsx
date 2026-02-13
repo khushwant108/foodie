@@ -10,8 +10,8 @@ const Login = ({ url }) => {
   const navigate=useNavigate();
   const {admin,setAdmin,token, setToken } = useContext(StoreContext);
   const [data, setData] = useState({
-    email: "admin@gmail.com",
-    password: "2004Khushwant",
+    email: "khushwantmalisawar11@gmail.com",
+    password: "2004@Mali",
   });
   const onChangeHandler = (event) => {
     const name = event.target.name;
